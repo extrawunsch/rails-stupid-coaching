@@ -1,0 +1,22 @@
+<h1>Stupid Coaching</h1>
+<div class='convo'>
+    <div class="sidebar-grey">
+    </div>
+    <div class="container">
+        <%= @answer %>
+        <p><em>-You</em></p>
+        <br>
+    </div>
+</div>
+<div class='convo' id="coach">
+    <div class="sidebar-grey">
+    </div>
+    <div class="container">
+        <strong><%= @coach %></strong>
+        <p><em>-Your Coach</em></p>
+        <br>
+    </div>
+</div>
+
+<br>
+<p class="link"><%= link_to "Ask a new question", ask_path %></p>

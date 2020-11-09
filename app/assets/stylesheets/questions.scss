@@ -1,0 +1,64 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  display: block;
+}
+
+.field input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-radius: 8px 0px 0px 8px; 
+}
+  
+  /* Style the submit button */
+.field input[type=submit] {
+  float: right;
+  width: 16.3%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 18px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  border-radius: 0px 8px 8px 0px;
+  cursor: pointer;
+}
+
+.convo {
+  height: 80px;
+  display: flex;
+  justify-content: stretch;;
+  align-items: left;
+  position: relative;
+  margin: 8px 0px;
+}  
+
+.sidebar-grey {
+  background-color:lightskyblue;
+  width: 8px;
+  margin-right: 8px;
+}
+
+.container {
+  text-align: justify;
+  padding: 12px;
+}  
+
+#coach {
+  background-color: lightyellow;
+}
+
+.link {
+  text-decoration: none;
+}
